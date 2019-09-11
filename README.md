@@ -1,2 +1,5 @@
-# real-time-chat-web-application
-real-time chat web application with firebase
+# Real-time chat web application
+
+- React (SPA)
+- Firebase
+- Bootstrap
