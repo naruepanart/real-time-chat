@@ -53,7 +53,7 @@ class Home extends React.Component {
         {!this.props.user && (
           <div className="container">
             <h1 className="display-4">Real-time chat web application</h1>
-            <p className="lead">Wed 11 Sep 2019</p>
+            {/* <p className="lead">Wed 11 Sep 2019</p> */}
           </div>
         )}
         {/*   {!this.props.user && (
