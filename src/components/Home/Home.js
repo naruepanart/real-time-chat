@@ -1,6 +1,7 @@
 import React from "react";
 import firebase from "../../firebase";
 import Chatbox from "./Chatbox";
+import { Link } from "react-router-dom";
 
 class Home extends React.Component {
   constructor(props) {
@@ -50,13 +51,9 @@ class Home extends React.Component {
           </div>
         )}
         <hr></hr>
+        <br></br>
+
         {!this.props.user && (
-          <div className="container">
-            <h1 className="display-4">Real-time chat web application</h1>
-            {/* <p className="lead">Wed 11 Sep 2019</p> */}
-          </div>
-        )}
-        {/*   {!this.props.user && (
           <div
             className="shadow-sm p-3 mb-5 bg-white rounded"
             style={{ textAlign: "center" }}
@@ -66,7 +63,7 @@ class Home extends React.Component {
               <Link to="/register">Register</Link> to start chatting!
             </p>
           </div>
-        )} */}
+        )}
       </div>
     );
   }
